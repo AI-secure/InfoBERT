@@ -1,6 +1,6 @@
-## InfoBERT on ANLI
+# InfoBERT on ANLI
 
-### Prepare your data
+## Prepare your data
 Download the [training data and test data](https://drive.google.com/file/d/1xWwABFkzJ6fEnR1f3xr-vkMesxdO7IZm/view?usp=sharing) into `anli_data`. 
 The training data includes:
 
@@ -31,9 +31,9 @@ anli_data
 
 ```
 
-Note that the ANLI dataset will be automatically downloaded by `nlp`package during training/testing.
+Note that the ANLI dataset will be automatically downloaded by `nlp` package during training/testing.
 
-### Train
+## Train
 
 Running example:
 ```bash
@@ -49,7 +49,7 @@ Note:
 - By default, `setup.sh` will use 1 GPU for training. If equipped with multiple GPUs, please modify the `setup.sh` and  set `--nproc_per_node=[ngpus]` accordingly.
 
 
-### Evaluate
+## Evaluate
 We provide our [InfoBERT checkpoint](https://drive.google.com/file/d/1RljMLLuIUD4lFwjciX7gxBC7RxvlGMDy/view?usp=sharing) that achieves the state-of-the-art performance on the ANLI test dataset. 
 
 To evaluate your model from a checkpoint
