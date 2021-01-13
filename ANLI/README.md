@@ -47,7 +47,7 @@ Note:
 - If task name is `anli-part`, it will be trained with only benign dataset (SNLI + MNLI).
 - The default MI estimator version is 6, which means both regularizers will be enabled.
 - By default, `setup.sh` will use 1 GPU for training. If equipped with multiple GPUs, please modify the `setup.sh` and  set `--nproc_per_node=[ngpus]` accordingly.
-
+- Our script can stop at any time and automatically resume from exisitng checkpoints.   
 
 ## Evaluate
 We provide our [InfoBERT checkpoint](https://drive.google.com/file/d/1RljMLLuIUD4lFwjciX7gxBC7RxvlGMDy/view?usp=sharing) that achieves the state-of-the-art performance on the ANLI test dataset. 
