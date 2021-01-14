@@ -38,7 +38,7 @@ Note that the ANLI dataset will be automatically downloaded by `nlp` package dur
 Running example:
 ```bash
 #                                               [task-name]  [custom-name]    [base-model]           [lr]  [batch-size]  [max-seq-len]     [training-steps]  [warmup steps]    [seed]    [weight-decay]   [beta]    [mi_version]  [hdp] [adp]    [adv lr]    [adv mag]  [anorm]  [asteps]   [alpha]    [cl]    [ch]
-source setup.sh && source setup.sh && runexp      anli-full      infobert     roberta-large          2e-5        32             128              -1                1000          42           1e-5         5e-3            6       0.1    0       4e-2         8e-2        0        3         5e-3      0.5     0.9
+source setup.sh && runexp      anli-full      infobert     roberta-large          2e-5        32             128              -1                1000          42           1e-5         5e-3            6       0.1    0       4e-2         8e-2        0        3         5e-3      0.5     0.9
 ```
 
 Detailed explanation of each parameter can be found in `setup.sh`.
