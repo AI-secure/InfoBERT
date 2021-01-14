@@ -20,14 +20,11 @@ To run ANLI and TextFooler experiments, refer to [README](https://github.com/AI-
 We will upload the code for the SQuAD experiments soon. 
 
 ## Citation
-> @inproceedings{
-> 
->wang2021infobert,
-> 
-> title={InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective},
-> 
-> author={Wang, Boxin and Wang, Shuohang and Cheng, Yu and Gan, Zhe and Jia, Ruoxi and Li, Bo and Liu, Jingjing},
-> 
-> booktitle={International Conference on Learning Representations},
-> 
-> year={2021}}
+```
+@inproceedings{
+wang2021infobert,
+title={InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective},
+author={Wang, Boxin and Wang, Shuohang and Cheng, Yu and Gan, Zhe and Jia, Ruoxi and Li, Bo and Liu, Jingjing},
+booktitle={International Conference on Learning Representations},
+year={2021}}
+```
